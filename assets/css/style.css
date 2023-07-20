@@ -1,0 +1,702 @@
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300&family=Inter&family=Lexend+Giga&family=Open+Sans&family=Playfair+Display&family=Poppins&family=Roboto&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300&family=Inter&family=Lexend+Giga&family=Open+Sans&family=Playfair+Display&family=Poppins&family=Roboto&display=swap');
+    * {
+        scroll-behavior: smooth;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    header {
+        background: /* top, transparent black, faked with gradient */
+        linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), /* bottom, image */
+        url(../imgs/main.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        animation: appear 1s;
+    }
+    
+    .block {
+        display: block;
+    }
+    
+    .title {
+        color: white;
+        text-transform: uppercase;
+        font-family: 'Roboto', sans-serif;
+        font-size: 120px;
+        margin-left: 150px;
+        text-align: left;
+        margin-top: 200px;
+    }
+    
+    .travbut {
+        text-align: left;
+        margin-left: 150px;
+        margin-top: 50px;
+    }
+    
+    .but {
+        color: white;
+        font-family: 'DM Sans', sans-serif;
+        font-size: 20px;
+        background-color: #DD2242;
+        border: none;
+        padding: 20px 30px;
+        border-radius: 70px;
+    }
+    
+    .logo {
+        padding: 20px 20px;
+    }
+    
+    .titles {
+        display: flex;
+        justify-content: right;
+    }
+    
+    #search {
+        font-size: 30px;
+    }
+    
+    .find {
+        display: flex;
+        justify-content: right;
+        margin-top: -20px;
+        margin-right: 40px;
+    }
+    
+    .frag2,
+    .frag3,
+    .frag1 {
+        background-color: rgba(0, 0, 0, 0.339);
+        width: 350px;
+        height: 200px;
+    }
+    
+    .numb {
+        color: red;
+        font-family: 'Roboto', sans-serif;
+        padding: 20px 30px;
+    }
+    
+    .tit {
+        color: white;
+        font-family: 'DM Sans', sans-serif;
+        padding: 0px 30px;
+        font-size: 26px;
+        font-weight: 700;
+    }
+    
+    .des {
+        color: #939393;
+        font-family: 'DM Sans', sans-serif;
+        font-size: 18px;
+        padding: 0px 30px;
+    }
+    
+    .video video {
+        width: 400px;
+    }
+    
+    .video {
+        margin-top: -27px;
+    }
+    
+    .mountpart {
+        background: /* top, transparent black, faked with gradient */
+        linear-gradient( rgba(37, 10, 10, 0.8), rgba(0, 0, 0, 0.8)), /* bottom, image */
+        url(../imgs/mountains.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        padding: 80px 0px;
+    }
+    
+    .des2 {
+        text-align: left;
+        margin-left: 1000px;
+        margin-top: -300px;
+    }
+    
+    .ways {
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 700;
+        font-size: 42px;
+        color: white;
+    }
+    
+    .lorem {
+        color: white;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: 'DM Sans', sans-serif;
+    }
+    
+    .more {
+        margin-top: 20px;
+    }
+    
+    .walkways {
+        margin-right: 700px;
+        text-align: center;
+    }
+    
+    .learnmore {
+        color: white;
+        font-family: 'DM Sans', sans-serif;
+        font-size: 15px;
+        background-color: #DD2242;
+        border: none;
+        padding: 20px 30px;
+        border-radius: 70px;
+    }
+    
+    .beach {
+        background: /* top, transparent black, faked with gradient */
+        linear-gradient( rgba(37, 10, 10, 0.8), rgba(0, 0, 0, 0.8)), /* bottom, image */
+        url(../imgs/beach.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        padding: 80px 0px;
+    }
+    
+    .des3 {
+        text-align: left;
+        margin-left: 300px;
+        margin-top: -300px;
+    }
+    
+    .beachimg {
+        text-align: center;
+        margin-left: 600px;
+    }
+    
+    .beaches {
+        color: white;
+        font-family: 'DM Sans', sans-serif;
+        font-size: 42px;
+        font-weight: 700;
+    }
+    
+    .lorem2 {
+        color: white;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: 'DM Sans', sans-serif;
+    }
+    
+    .more2 {
+        margin-top: 20px;
+    }
+    
+    .hillswalleys {
+        margin-top: 100px;
+    }
+    
+    .our,
+    .lorem4,
+    .more3 {
+        text-align: center;
+    }
+    
+    .our {
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 700;
+        font-size: 42px;
+    }
+    
+    .lorem4 {
+        font-family: 'DM Sans', sans-serif;
+        margin-top: 10px;
+        color: #6F7787;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    
+    .more3 {
+        margin-top: 10px;
+    }
+    
+    .life {
+        background: /* top, transparent black, faked with gradient */
+        linear-gradient( rgba(37, 10, 10, 0.8), rgba(0, 0, 0, 0.8)), /* bottom, image */
+        url(../imgs/palms.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        padding: 80px 0px;
+        margin-top: 30px;
+    }
+    
+    .like {
+        text-align: center;
+        color: white;
+        font-weight: 700;
+        font-family: 'DM Sans', sans-serif;
+        font-size: 42px;
+    }
+    
+    .man {
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .videocountry video {
+        width: 233px;
+        height: 151px;
+        border-radius: 20%;
+    }
+    
+    .videocountry {
+        text-align: center;
+        margin-left: 850px;
+        margin-top: 100px;
+    }
+    
+    .incountry {
+        color: white;
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 700;
+    }
+    
+    .des4 {
+        color: rgba(255, 255, 255, 0.656);
+        font-family: 'DM Sans', sans-serif;
+    }
+    
+    .incountry,
+    .des4 {
+        text-align: center;
+        margin-right: 350px;
+    }
+    
+    .incity,
+    .des5 {
+        text-align: center;
+        margin-left: 350px;
+    }
+    
+    .incountry {
+        margin-top: -130px;
+    }
+    
+    .des4 {
+        margin-top: 20px;
+    }
+    
+    .videocity {
+        text-align: center;
+        margin-right: 850px;
+        margin-top: -130px;
+    }
+    
+    .videocity video {
+        width: 233px;
+        height: 151px;
+        border-radius: 20%;
+    }
+    
+    .incity {
+        color: white;
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 700;
+    }
+    
+    .des5 {
+        color: rgba(255, 255, 255, 0.656);
+        font-family: 'DM Sans', sans-serif;
+    }
+    
+    .incity {
+        margin-top: -130px;
+    }
+    
+    .des5 {
+        margin-top: 20px;
+    }
+    
+    .galertit {
+        text-align: center;
+        font-family: 'DM Sans', sans-serif;
+        margin-top: 100px;
+        font-weight: 700;
+        font-size: 60px;
+    }
+    
+    .lorem5 {
+        font-family: 'DM Sans', sans-serif;
+        color: #6F7787;
+        text-align: center;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    
+    .sec1 {
+        text-align: center;
+        margin-right: 800px;
+    }
+    
+    .sec2 {
+        text-align: center;
+        margin-top: -750px;
+    }
+    
+    .sec3 {
+        text-align: center;
+        margin-left: 800px;
+        margin-top: -760px;
+    }
+    
+    .img2 {
+        margin-top: 20px;
+    }
+    
+    .img4 {
+        margin-top: 10px;
+    }
+    
+    .img6 {
+        margin-top: 10px;
+    }
+    
+    .gettingthere {
+        background-color: #DCE8F2;
+        padding: 30px;
+    }
+    
+    .there {
+        font-family: 'DM Sans', sans-serif;
+        font-size: 50px;
+        font-weight: 700;
+        text-align: center;
+        margin-right: 800px;
+    }
+    
+    footer {
+        background-color: #010A20;
+        padding: 10px;
+        margin-top: 50px;
+    }
+    
+    .links2 {
+        display: flex;
+        color: white;
+        justify-content: left;
+        margin-left: 200px;
+    }
+    
+    .links2 p {
+        margin-top: -35px;
+        font-family: 'DM Sans', sans-serif;
+        margin-left: 10px;
+    }
+    
+    .social {
+        text-align: right;
+        margin-right: 100px;
+        gap: 10px;
+        margin-top: -40px;
+    }
+    
+    .social i {
+        margin-left: 10px;
+    }
+    
+    .fa-google,
+    .fa-facebook-f {
+        font-size: 15px;
+        margin-top: -20px;
+    }
+    
+    #myBtn {
+        padding: 14px 20px;
+        border-radius: 40px;
+        border: none;
+        background-color: orange;
+        font-size: 30px;
+    }
+    
+    .up {
+        text-align: right;
+        margin-top: -50px;
+    }
+    
+    .scale {
+        transition: 0.5s;
+        rotate: 360deg;
+    }
+    
+    input {
+        margin-right: 50px;
+        border: none;
+        font-family: 'DM Sans', sans-serif;
+        outline: none;
+        background: none;
+        color: white;
+        border-bottom: 1px solid white;
+        display: none;
+    }
+    
+    .app {
+        transition: 0.5s;
+        display: flex;
+    }
+    
+    @media (max-width:1677px) {
+        .des3 {
+            margin-left: 100px;
+        }
+    }
+    
+    @media (max-width:1463px) {
+        .des2 {
+            margin-left: 700px;
+        }
+    }
+    
+    @media (max-width:1234px) {
+        .des2 {
+            margin-top: 50px;
+            text-align: center;
+            margin-left: 0px;
+        }
+        .walkways {
+            text-align: center;
+            margin-right: 0px;
+        }
+        .des3 {
+            text-align: center;
+            margin-right: 100px;
+            margin-top: 50px;
+        }
+        .beachimg {
+            text-align: center;
+            margin-left: 0px;
+        }
+    }
+    
+    @media (max-width:1178px) {
+        .sec3 {
+            display: grid;
+            justify-content: center;
+            grid-template-columns: 370px 370px;
+            margin-top: 10px;
+            margin-left: -45px;
+        }
+        .img6 img {
+            margin-left: 90px;
+        }
+        .sec2 {
+            margin-left: 500px;
+        }
+        .sec1 {
+            margin-right: 400px;
+        }
+    }
+    
+    @media (max-width:1118px) {
+        .titles {
+            display: grid;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        .frag1,
+        .frag2,
+        .frag3,
+        .video video {
+            width: 450px;
+            height: 300px;
+        }
+        .title {
+            text-align: center;
+            margin: 0px;
+            margin-top: 100px;
+        }
+        .travbut {
+            text-align: center;
+            margin: 0;
+            margin-top: 50px;
+        }
+        .numb,
+        .tit,
+        .des {
+            font-size: 30px;
+        }
+        .but {
+            width: 40%;
+        }
+    }
+    
+    @media (max-width:1062px) {
+        .man img {
+            width: 700px;
+        }
+    }
+    
+    @media (max-width:934px) {
+        .like {
+            font-size: 30px;
+        }
+    }
+    
+    @media (max-width:882px) {
+        .img1 img,
+        .img2 img,
+        .img3 img,
+        .img4 img,
+        .img5 img,
+        .img6 img {
+            width: 300px;
+        }
+        .sec1 {
+            margin: 0;
+        }
+        .sec2 {
+            margin: 0;
+        }
+        .sec3 {
+            margin: 0;
+            display: grid;
+            grid-template-columns: 100px;
+        }
+        .img5 {
+            margin-left: -100px;
+        }
+        .img6 {
+            margin-left: -190px;
+        }
+    }
+    
+    @media (max-width:708px) {
+        .man img {
+            width: 500px;
+        }
+        .like {
+            font-size: 27px;
+        }
+    }
+    
+    @media (max-width:634px) {
+        .ways,
+        .beaches {
+            font-size: 30px;
+        }
+    }
+    
+    @media (max-width:640px) {
+        .title {
+            font-size: 80px;
+        }
+        .beachimg img,
+        .mountpart img {
+            width: 400px;
+        }
+        .links2 {
+            display: block;
+            text-align: center;
+            margin-top: 70px;
+            margin-left: 0px;
+        }
+        .links2 p {
+            margin-top: 10px;
+            font-size: 20px;
+            font-weight: 800;
+        }
+        .social {
+            margin-top: 60px;
+            text-align: center;
+            margin-right: 0px;
+        }
+        .social i {
+            font-size: 30px;
+        }
+        .rose {
+            margin-top: 20px;
+            text-align: center;
+        }
+        #myBtn {
+            margin-top: 100px;
+        }
+    }
+    
+    @media (max-width:596px) {
+        .like {
+            font-size: 22px;
+        }
+    }
+    
+    @media (max-width:520px) {
+        .our {
+            font-size: 30px;
+        }
+    }
+    
+    @media (max-width:507px) {
+        .beaches {
+            font-size: 25px;
+        }
+    }
+    
+    @media (max-width:500px) {
+        .man img {
+            width: 300px;
+        }
+        .app {
+            margin-top: 40px;
+        }
+    }
+    
+    @media (max-width:470px) {
+        .frag1,
+        .frag2,
+        .frag3,
+        .video video {
+            width: 350px;
+            height: 200px;
+            margin: 0px;
+        }
+        .tit {
+            font-size: 20px;
+        }
+        .des {
+            font-size: 17px;
+        }
+        .but {
+            width: 70%;
+        }
+    }
+    
+    @media (max-width:418px) {
+        .title {
+            font-size: 50px;
+        }
+    }
+    
+    @media (max-width:400px) {
+        .beachimg img,
+        .walkways img {
+            width: 280px;
+        }
+    }
+    
+    @media (max-width:400px) {
+        .our {
+            font-size: 20px;
+        }
+    }
+    
+    @keyframes appear {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
